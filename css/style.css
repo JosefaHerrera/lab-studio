@@ -46,3 +46,18 @@ body{
 }
 
 /*BIENVENIDA*/
+
+.first-section h1 {
+    color: #FFF;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.first-section h2 {
+    padding-top: 5em;
+    color: #FFF;
+    font-size: 44px;
+}
+.font-welcome{
+	font-family: 'Merriweather', serif;
+}
