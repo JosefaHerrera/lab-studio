@@ -11,38 +11,41 @@
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300i,900i" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!--CSS-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navegacion">
 	<section class="first-section">
-		<nav class="navbar navbar-fixed-top">
-		  <div class="container">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> <span class="menu-mobile">Menu <i class="menu-mobile fa fa-bars"></i></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
-             </div>
-		   </div>
+		<div class="container">
+			<nav id="navbar" class="navbar navbar-fixed-top navbar-default" rol="navigation">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navegacion">
+	                    <span class="sr-only">Toggle navigation</span> <span class="menu-mobile">Menu <i class="menu-mobile fa fa-bars"></i></span>
+	                </button>
+	                <a class="navbar-brand" href="#">Start Bootstrap</a>
+	             </div>
+			   </div>
 
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="#">SERVICES</a></li>
-		        <li><a href="#">PORTFOLIO</a></li>
-		        <li><a href="#">ABOUT</a></li>
-		        <li><a href="#">TEAM</a></li>
-		        <li><a class="amarillo" href="#">CONTACT</a></li>
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div>
-		</nav>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="navegacion">
+			      <ul class="nav navbar navbar-nav navbar-right" role="tablist">
+			        <li><a href="#services">SERVICES</a></li>
+			        <li><a href="#portfolio">PORTFOLIO</a></li>
+			        <li><a href="#about">ABOUT</a></li>
+			        <li><a href="#team">TEAM</a></li>
+			        <li><a href="#contact">CONTACT</a></li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div>
+			</nav>
+		</div>
 		<!--BIENVENIDA-->
 		<div class="container">
 			<div class="row">
@@ -55,13 +58,540 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12 text-center tell">
-						<a class="tellmemore" href="#">TELL ME MORE</a>
+					<div class="col-md-12 text-center tell text-center boton">
+						<a class="tellmemore" href="#services">TELL ME MORE</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!-- SERVICES-->
+	<section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center services-title">
+                    <h2 class="section-color services-font">SERVICES</h2>
+                    <h3 class="leyenda">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+            	<div class="col-md-12 services-padding">
+	                <div class="col-md-4">
+	                    <span class="fa-stack fa-4x">
+	                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+	                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+	                    </span>
+	                    <h4 class="service-color"><b>E-Commerce</b></h4>
+	                    <p class="leyenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+	                </div>
+	                <div class="col-md-4">
+	                    <span class="fa-stack fa-4x">
+	                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+	                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+	                    </span>
+	                    <h4 class="service-color"><b>Responsive Design</b></h4>
+	                    <p class="leyenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+	                </div>
+	                <div class="col-md-4">
+	                    <span class="fa-stack fa-4x">
+	                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+	                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+	                    </span>
+	                    <h4 class="service-color"><b>Web Security</b></h4>
+	                    <p class="leyenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+	                </div>
+	            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-color services-font">PORTFOLIO</h2>
+                    <h5 class= "text-muted font-welcome2">Lorem ipsum dolor sit amet consectetur.</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-12 col-sm-12 text-center">
+                    <a href="#portfolioModal1" data-toggle="modal">
+                        <img src="img/roundicons.png" class="img-responsive" alt="">
+                    </a>
+                    <div>
+                        <h4><b>Round Icons</b></h4>
+                        <p class="text-muted">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-12 text-center">
+                    <a href="#portfolioModal2" data-toggle="modal">
+                        <img src="img/startup-framework.png" class="img-responsive" alt="">
+                    </a>
+                    <div>
+                        <h4><b>Startup Framework</b></h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-12 text-center">
+                    <a href="#portfolioModal3" data-toggle="modal">
+                        <img src="img/treehouse.png" class="img-responsive" alt="">
+                    </a>
+                    <div>
+                        <h4><b>Treehouse</b></h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-12 text-center">
+                    <a href="#portfolioModal4" data-toggle="modal">
+                        <img src="img/golden.png" class="img-responsive" alt="">
+                    </a>
+                    <div>
+                        <h4><b>Golden</b></h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-12 text-center">
+                    <a href="#portfolioModal5" data-toggle="modal">
+                        <img src="img/escape.png" class="img-responsive" alt="">
+                    </a>
+                    <div>
+                        <h4><b>Escape</b></h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-12 text-center">
+                    <a href="#portfolioModal6" data-toggle="modal">
+                        <img src="img/dreams.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4><b>Dreams</b></h4>
+                        <p class="text-muted">Website Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    							<!--MODAL PORTFOLIO -->
+    	    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-contenido">
+            <div class="modal-fondo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Round Icons</h2>
+                                <p>Graphic Design</p>
+                                <img class="img-centered img-circle" src="img/roundicons.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsam sed quaerat, esse natus dignissimos, iure nam at recusandae itaque enim pariatur veritatis officiis voluptatibus, deserunt eum dolorem dicta dolore?</p>
+                                <p>
+                                    <b>more information</b> <a href="#">here</a>.</p>
+                                <ul class="list-inline">
+                                    <li>Date: June 2017</li>
+                                    <li>Laboratoria &copy; 2017</li>
+                                    <li>Category: Graphic Design</li>
+                                </ul>
+                                <button type="button" class="btn btn-style" data-dismiss="modal"><i class="fa fa-times"></i> CLOSE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    	<!--portfolio Modal 2-->
+	    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-contenido">
+	            <div class="modal-fondo">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-lg-8 col-lg-offset-2 text-center">
+	                            <div class="modal-body">
+	                                <!-- Project Details Go Here -->
+	                                <h2>Startup Framework</h2>
+	                                <p>Website Design</p>
+	                                <img class="img-centered img-circle" src="img/startup-framework.png" alt="">
+	                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsam sed quaerat, esse natus dignissimos, iure nam at recusandae itaque enim pariatur veritatis officiis voluptatibus, deserunt eum dolorem dicta dolore?</p>
+	                                <p>
+	                                    <b>more information</b> <a href="#">here</a>.</p>
+	                                <ul class="list-inline">
+	                                    <li>Date: June 2017</li>
+	                                    <li>Laboratoria &copy; 2017</li>
+	                                    <li>Category: Website Design</li>
+	                                </ul>
+	                                <button type="button" class="btn btn-style" data-dismiss="modal"><i class="fa fa-times"></i> CLOSE</button>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+    	<!--portfolio Modal 3-->
+	    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-contenido">
+	            <div class="modal-fondo">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-lg-8 col-lg-offset-2 text-center">
+	                            <div class="modal-body">
+	                                <!-- Project Details Go Here -->
+	                                <h2>Treehouse</h2>
+	                                <p>Website Design</p>
+	                                <img class="img-centered img-circle" src="img/treehouse.png" alt="">
+	                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsam sed quaerat, esse natus dignissimos, iure nam at recusandae itaque enim pariatur veritatis officiis voluptatibus, deserunt eum dolorem dicta dolore?</p>
+	                                <p>
+	                                    <b>more information</b> <a href="#">here</a>.</p>
+	                                <ul class="list-inline">
+	                                    <li>Date: June 2017</li>
+	                                    <li>Laboratoria &copy; 2017</li>
+	                                    <li>Category: Website Design</li>
+	                                </ul>
+	                                <button type="button" class="btn btn-style" data-dismiss="modal"><i class="fa fa-times"></i> CLOSE</button>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+    	<!--portfolio Modal 4-->
+	    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-contenido">
+	            <div class="modal-fondo">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-lg-8 col-lg-offset-2 text-center">
+	                            <div class="modal-body">
+	                                <!-- Project Details Go Here -->
+	                                <h2>Golden</h2>
+	                                <p>Website Design</p>
+	                                <img class="img-centered img-circle" src="img/golden.png" alt="">
+	                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsam sed quaerat, esse natus dignissimos, iure nam at recusandae itaque enim pariatur veritatis officiis voluptatibus, deserunt eum dolorem dicta dolore?</p>
+	                                <p>
+	                                    <b>more information</b> <a href="#">here</a>.</p>
+	                                <ul class="list-inline">
+	                                    <li>Date: June 2017</li>
+	                                    <li>Laboratoria &copy; 2017</li>
+	                                    <li>Category: Website Design</li>
+	                                </ul>
+	                                <button type="button" class="btn btn-style" data-dismiss="modal"><i class="fa fa-times"></i> CLOSE</button>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+    	<!--portfolio Modal 5-->
+	    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-contenido">
+	            <div class="modal-fondo">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-lg-8 col-lg-offset-2 text-center">
+	                            <div class="modal-body">
+	                                <!-- Project Details Go Here -->
+	                                <h2>Escape</h2>
+	                                <p>Website Design</p>
+	                                <img class="img-centered img-circle" src="img/escape.png" alt="">
+	                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsam sed quaerat, esse natus dignissimos, iure nam at recusandae itaque enim pariatur veritatis officiis voluptatibus, deserunt eum dolorem dicta dolore?</p>
+	                                <p>
+	                                    <b>more information</b> <a href="#">here</a>.</p>
+	                                <ul class="list-inline">
+	                                    <li>Date: June 2017</li>
+	                                    <li>Laboratoria &copy; 2017</li>
+	                                    <li>Category: Website Design</li>
+	                                </ul>
+	                                <button type="button" class="btn btn-style" data-dismiss="modal"><i class="fa fa-times"></i> CLOSE</button>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+    	<!--portfolio Modal 6-->
+	    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-contenido">
+	            <div class="modal-fondo">
+	                <div class="container">
+	                    <div class="row">
+	                        <div class="col-lg-8 col-lg-offset-2 text-center">
+	                            <div class="modal-body">
+	                                <!-- Project Details Go Here -->
+	                                <h2>Dreams</h2>
+	                                <p>Website Design</p>
+	                                <img class="img-centered img-circle" src="img/dreams.png" alt="">
+	                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsam sed quaerat, esse natus dignissimos, iure nam at recusandae itaque enim pariatur veritatis officiis voluptatibus, deserunt eum dolorem dicta dolore?</p>
+	                                <p>
+	                                    <b>more information</b> <a href="#">here</a>.</p>
+	                                <ul class="list-inline">
+	                                    <li>Date: June 2017</li>
+	                                    <li>Laboratoria &copy; 2017</li>
+	                                    <li>Category: Website Design</li>
+	                                </ul>
+	                                <button type="button" class="btn btn-style" data-dismiss="modal"><i class="fa fa-times"></i> CLOSE</button>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+		<!--ABOUT-->
+		<section id="about">
+			<div class="container img-padding">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h1 class="section-color services-font">ABOUT</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h5 class="text-muted font-welcome2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+					</div>
+				</div>
+				<!--ROW DERECHA-->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-4 text-right col-xs-6 img-padding2 hidden-sm hidden-xs">
+							<h4><b>2009-2011</b></h4>
+							<h4><b>Our Humble Beginnings</b></h4>
+							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+						</div>
+						<div class="col-md-4 col-xs-6 text-center img-padding2">
+							<img class="img-circle" src="img/1.jpg" alt="">
+						</div>
+						<div class="col-md-4 text-left col-xs-6 img-padding2 hidden-lg hidden-sm">
+							<h4><b>2009-2011</b></h4>
+							<h4><b>Our Humble Beginnings</b></h4>
+							<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+						</div>
+					</div>
+				</div>
+				<!--ROW IZQUIERDA-->
+					<div class="row">
+						<div class="col-md-12 col-md-offset-4">
+							<div class="col-md-4 text-right col-xs-6 img-padding2 hidden-lg hidden-md">
+								<h4><b>MARCH 2011</b></h4>
+								<h4><b>An Agency is Born</b></h4>
+								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+							</div>
+							<div class="col-md-4 col-xs-6 text-center img-padding2">
+								<img class="img-circle" src="img/2.jpg" alt="">
+							</div>
+							<div class="col-md-4 text-left col-xs-6 img-padding2 hidden-xs hidden-sm">
+								<h4><b>MARCH 2011</b></h4>
+								<h4><b>An Agency is Born</b></h4>
+								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+							</div>
+						</div>
+					</div>
+					<!--ROW DERECHA-->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="col-md-4 text-right col-xs-6 img-padding2 hidden-sm hidden-xs">
+								<h4><b>DECEMBER 2012</b></h4>
+								<h4><b>Transition to Full Service</b></h4>
+								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+							</div>
+							<div class="col-md-4 col-xs-6 text-center img-padding2">
+								<img class="img-circle" src="img/3.jpg" alt="">
+							</div>
+							<div class="col-md-4 text-left col-xs-6 img-padding2 hidden-lg hidden-sm">
+								<h4><b>DECEMBER 2012</b></h4>
+								<h4><b>Transition to Full Service</b></h4>
+								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+							</div>
+						</div>
+					</div>
+					<!--ROW IZQUIERDA-->
+					<div class="row">
+						<div class="col-md-12 col-md-offset-4">
+							<div class="col-md-4 text-right col-xs-6 img-padding2 hidden-lg hidden-md">
+								<h4><b>JULY 2014</b></h4>
+								<h4><b>Phase Two Expansion</b></h4>
+								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+							</div>
+							<div class="col-md-4 col-xs-6 text-center img-padding2">
+								<img class="img-circle" src="img/4.jpg" alt="">
+							</div>
+							<div class="col-md-4 text-left col-xs-6 img-padding2 hidden-sm hidden-xs">
+								<h4><b>JULY 2014</b></h4>
+								<h4><b>Phase Two Expansion</b></h4>
+								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+
+       <!-- Team Section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center title-team">
+                    <h2 class="section-color services-font">OUR AMAZING TEAM</h2>
+                    <h5 class=" text-muted font-welcome2">Lorem ipsum dolor sit amet consectetur.</h5>
+                </div>
+            </div>
+            <div class="row text-center img-padding-team">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/uno.jpg" class="text-center img-circle" alt="">
+                        <h4 class="name">Kay Garland</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/dos.jpg" class="text-center img-circle" alt="">
+                        <h4 class="name">Larry Parker</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/tres.jpg" class="text-center img-circle" alt="">
+                        <h4 class="name">Diana Pertersen</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h4 class="text-muted font-welcome2 padding-text-team">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/envato.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/designmodo.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/themeforest.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/creative-market.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="title-contact">CONTACT US</h1>
+                    <h4 class="font-welcome2 text-muted">Lorem ipsum dolor sit amet consectetur.</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="YOUR NAME *" id="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="YOUR EMAIL *" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="YOUR PHONE *" id="phone">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="YOUR MESSAGE *" id="message" required></textarea>
+                               </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div></div>
+                                <button id="enviar" type="submit" class="btn tellmemore ">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--FOOTER-->
+    <footer>
+        <div class="container">
+            <div class="row">
+           		<div class="col-md-12">
+	                <div class="col-md-4">
+	                    <p class="copyright text-center">Copyright &copy; Your Website 2016</p>
+	                </div>
+	                <div class="col-md-4">
+	                    <ul class="list-inline text-center">
+	                        <li><a href="#"><i class="fa-2x fa fa-twitter"></i></a>
+	                        </li>
+	                        <li><a href="#"><i class="fa-2x fa fa-facebook"></i></a>
+	                        </li>
+	                        <li><a href="#"><i class="fa-2x fa fa-linkedin"></i></a>
+	                        </li>
+	                    </ul>
+	                </div>
+	                <div class="col-md-4 text-center">
+	                    <ul class="list-inline">
+	                        <li><a href="#">Privacy Policy</a>
+	                        </li>
+	                        <li><a href="#">Terms of Use</a>
+	                        </li>
+	                    </ul>
+	                </div>
+	            </div>
+	         </div>
+        </div>
+    </footer>
 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

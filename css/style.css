@@ -3,20 +3,39 @@ body{
 	padding: 0;
 	margin: 0 auto;
 	overflow-x: hidden;
+}
+
+.first-section{
 	background-image: url(../img/header-bg.jpg);
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-position-y:-137px;
-
+}
+/*NAVBAR - MENU */
+.navbar-default{
+	background-color: transparent;
 }
 
-/*NAVBAR - MENU */
-.navbar-brand {
+.navbar-default .navbar-brand {
     font-family: 'Kaushan Script', cursive;
     color:#fec503;
     font-size: 27px;
     padding: 25px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff;
+    background-color: #fec503;
+    border-radius: 10%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:#ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color:#fec503;
 }
 
 .nav{
@@ -24,34 +43,22 @@ body{
     padding: 8px;
     background-color: none;
 }
-
-.nav a{
-	color: #ffffff;
+.navbar{
+	border: none;
 }
 
-.nav a:hover{
-	color:#fec503;
-	background-color: hidden;
-}
-/*PREGUNTAR A ALE*/
-.nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: none;
+.navbar-toggle {
+    color: #fff;
+    background-color: #fec503;
+    border:none;
 }
 
-.nav .amarillo{
-	color:#fec503;
+/*scroll*/
+.menu-color {
+    background-color:black;
 }
+/**********/
 
-.menu-mobile{
-	background-color:#fec503;
-	color:#ffffff;
-	padding: 10px;
-	border-radius: 10px;
-}
-.menu-mobile .fa{
-	border-radius: 10px;
-}
 /*BIENVENIDA*/
 
 .first-section h1 {
@@ -91,7 +98,155 @@ body{
 	color: black;
 }
 .tell{
+	padding-top: 97px;
+}
+.boton{
+	padding-bottom: 200px;
+}
+/*SERVICES*/
+#services{
+	background-color: white;
+}
+.service-color{
+	color:black;
+}
+.text-primary{
+	color:#fed136;
+}
+.leyenda{
+	font-style: italic;
+	color:#777777;
+	font-size: 17px;
+}
+.services-padding{
+	padding-top: 90px;
+	padding-bottom: 170px;
+}
+.services-title{
+	padding-top: 98px;
+}
+.services-font{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 40px;
+
+}
+
+/*portfolio*/
+
+#portfolio{
+	background-color: whitesmoke;
+	padding-top: 90px;
+	padding-bottom: 170px;
+}
+
+/*MODAL*/
+.modal {
+    position: fixed;
+    bottom: 0;
+    z-index: 1050;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+}
+.modal-fondo {
+    background-color: #fed136;
+}
+
+.portfolio-modal .modal-contenido {
+  margin: 40px;
+  height: 100%;
+  width: auto;
+}
+.btn-style{
+	background-color: black;
+	color:#ffffff;
+}
+.btn-style:hover{
+	color: #fed136;
+}
+
+/*ABOUT*/
+#about{
+	padding-bottom: 80px;
+}
+.img-padding{
+	padding-top: 80px;
+}
+.img-padding2{
+	padding-top: 90px;
+}
+.img-padding-bottom{
+	padding-bottom: 40px;
+}
+.font-welcome2{
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+/*TEAM*/
+#team{
+	background-color:#eeeeee;
 	padding-top: 50px;
+	padding-bottom: 180px;
+}
+
+.title-team{
+	padding-top: 90px;
+}
+.img-padding-team{
+	padding-top: 84px;
+}
+.name{
+	font-size: 20px;
+	font-weight: 900;
+}
+.padding-text-team{
+padding-top: 40px;
+}
+.clients{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*CONTACT*/
+#contact{
+	background-color: black;
+	background-image: url(../img/map-image.png);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 143px;
+    padding-bottom: 250px;
+}
+
+.title-contact{
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+textarea.form-control {
+    height: auto;
+    padding-bottom: 82px;
 }
 
 
+/*FOOTER*/
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+footer li{
+	padding: 15px;
+}
+
+.copyright{
+	padding-top: 24px;
+}
