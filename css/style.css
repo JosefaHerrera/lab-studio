@@ -217,6 +217,24 @@ padding-top: 40px;
 	padding-bottom: 20px;
 }
 
+#team .fa {
+    background-color: black;
+    padding: 12px;
+    border-radius: 100%;
+    padding-left: 14px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color:#fed136;
+    text-decoration: underline;
+}
+
+
 /*CONTACT*/
 #contact{
 	background-color: black;
@@ -254,4 +272,16 @@ footer li{
 
 .copyright{
 	padding-top: 24px;
+}
+
+footer .fa {
+    background-color: black;
+    padding: 12px;
+    border-radius: 100%;
+    padding-left: 14px;
+}
+
+.link-footer{
+	color: black;
+	text-decoration: none;
 }
