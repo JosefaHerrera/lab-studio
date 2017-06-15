@@ -140,6 +140,11 @@ body{
 	padding-bottom: 170px;
 }
 
+.fondo-img{
+	background-color: white;
+	padding: 20px;
+}
+
 /*MODAL*/
 .modal {
     position: fixed;
