@@ -192,6 +192,13 @@ body{
   margin-bottom: 25px;
 }
 
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    display: row;
+}
+
+
 /*TEAM*/
 #team{
 	background-color:#eeeeee;
